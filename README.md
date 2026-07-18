@@ -1,4 +1,3 @@
-# OptiPath
 # <img src="assets/optipath_logo.png" width="40" height="40"> OptiPath: Local Network Optimization Engine
 
 OptiPath is an Android-based local network optimization application designed to drastically reduce latency and ping spikes for competitive mobile gamers. 
